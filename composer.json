@@ -1,0 +1,27 @@
+{
+  "name": "test/test",
+  "license": "proprietary",
+  "type": "library",
+  "description": "test",
+  "authors": [
+    {
+      "name": "test"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "test\\Component\\": "src/test/Component"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.10.3"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "platform": {
+      "php": "7.2.1"
+    }
+  }
+}
